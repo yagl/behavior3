@@ -1,0 +1,39 @@
+{
+  "name": "quest-behavior3",
+  "version": "0.1.0",
+  "description": "Behavior Tree library for Javascript.",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "gulp",
+    "pretest": "gulp",
+    "test": "mocha --recursive --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quest-engine/behavior3.git"
+  },
+  "keywords": [
+    "behavior tree",
+    "ai",
+    "artificial intelligence",
+    "game",
+    "game dev"
+  ],
+  "author": "Pierre Beaujeu <pierre.beaujeu@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/quest-engine/behavior3/issues"
+  },
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-concat": "^2.6.0",
+    "lolex": "^1.2.2",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
+  }
+}
