@@ -50,7 +50,7 @@ var MemSequence = (function (_BaseNode) {
       var child = _tick.blackboard.get('runningChild', _tick.tree.id, this.id);
 
       for (var i = child; i < this.childs.length; i += 1) {
-        var status = this.childs[i].execute();
+        var status = this.childs[i].execute(_tick);
 
         if (status !== _constantsState2['default'].SUCCESS) {
           if (status === _constantsState2['default'].RUNNING) {

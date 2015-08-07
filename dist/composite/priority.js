@@ -43,7 +43,7 @@ var Priority = (function (_BaseNode) {
     key: 'tick',
     value: function tick(_tick) {
       for (var i = 0; i < this.childs.length; i += 1) {
-        var status = this.childs[i].execute();
+        var status = this.childs[i].execute(_tick);
 
         if (status !== _constantsState2['default'].FAILURE) {
           return status;

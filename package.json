@@ -1,6 +1,6 @@
 {
   "name": "quest-behavior3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Behavior Tree library for Javascript.",
   "main": "dist/index.js",
   "directories": {
