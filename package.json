@@ -1,6 +1,6 @@
 {
-  "name": "quest-behavior3",
-  "version": "0.1.1",
+  "name": "yagl-behavior3",
+  "version": "0.2.0",
   "description": "Behavior Tree library for Javascript.",
   "main": "dist/index.js",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/quest-engine/behavior3.git"
+    "url": "git://github.com/yagl/behavior3.git"
   },
   "keywords": [
     "behavior tree",
@@ -24,7 +24,7 @@
   ],
   "author": "Pierre Beaujeu <pierre.beaujeu@gmail.com>",
   "bugs": {
-    "url": "https://github.com/quest-engine/behavior3/issues"
+    "url": "https://github.com/yagl/behavior3/issues"
   },
   "devDependencies": {
     "babel": "^5.8.20",
