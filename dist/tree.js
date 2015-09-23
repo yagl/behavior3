@@ -1,3 +1,7 @@
+/**
+ * module ecs
+ */
+
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -16,13 +20,31 @@ var _tick = require('./tick');
 
 var _tick2 = _interopRequireDefault(_tick);
 
+/**
+ * A behavior tree.
+ * 
+ * @class  BehaviorTree
+ */
+
 var BehavoirTree = (function () {
+  /**
+   * @constructor
+   * @class  BehaviorTree
+   */
+
   function BehavoirTree() {
     _classCallCheck(this, BehavoirTree);
 
     this.id = (0, _utils.createUUID)();
     this.root = null;
   }
+
+  /**
+   * Update the behavior tree.
+   * @param  {[type]} target     [description]
+   * @param  {[type]} blackboard [description]
+   * @return {[type]}            [description]
+   */
 
   _createClass(BehavoirTree, [{
     key: 'tick',
